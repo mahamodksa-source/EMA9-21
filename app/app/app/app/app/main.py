@@ -3,6 +3,8 @@ from datetime import datetime
 from config import Settings
 from exchange import Exchange
 from strategy import Strategy, Signal
+from notifier import Notifier
+
 
 def now_iso():
     return datetime.utcnow().isoformat()
