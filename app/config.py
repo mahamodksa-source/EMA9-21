@@ -17,3 +17,6 @@ class Settings:
     poll_seconds: int = int(os.getenv("POLL_SECONDS", "55"))              # وقت الانتظار بين كل دورة
     dry_run: bool = os.getenv("DRY_RUN", "false").lower() == "true"
     network: str = os.getenv("BYBIT_NETWORK", "mainnet")                  # mainnet أو testnet
+    telegram_token: str = os.getenv("TELEGRAM_TOKEN", "")
+telegram_chat_id: str = os.getenv("TELEGRAM_CHAT_ID", "")
+
