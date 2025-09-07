@@ -1,0 +1,4 @@
+{
+  "build": { "builder": "Docker" },
+  "deploy": { "restartPolicyType": "ON_FAILURE", "numReplicas": 1 }
+}
