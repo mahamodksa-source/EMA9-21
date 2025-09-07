@@ -8,4 +8,5 @@ COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY EMA9-21/main.py
-CMD ["python", "-m", "app.main"]
+CMD ["python", "-m",EMA9-21/main.py
+]
