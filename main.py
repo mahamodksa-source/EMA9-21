@@ -1,3 +1,22 @@
+from config import Config
+
+print("=== CONFIG DEBUG ===")
+print("BYBIT_API_KEY:", Config.BYBIT_API_KEY)
+print("BYBIT_API_SECRET:", Config.BYBIT_API_SECRET)
+print("BYBIT_NETWORK:", Config.BYBIT_NETWORK)
+print("DRY_RUN:", Config.DRY_RUN)
+print("FIXED_TRADE_USDT:", Config.FIXED_TRADE_USDT)
+print("OB_LEVELS:", Config.OB_LEVELS)
+print("OB_THRESHOLD:", Config.OB_THRESHOLD)
+print("POLL_SECONDS:", Config.POLL_SECONDS)
+print("SL_ATR_MULT:", Config.SL_ATR_MULT)
+print("TP_RR:", Config.TP_RR)
+print("TELEGRAM_TOKEN:", Config.TELEGRAM_TOKEN)
+print("TELEGRAM_CHAT_ID:", Config.TELEGRAM_CHAT_ID)
+print("TIMEFRAME:", Config.TIMEFRAME)
+print("====================")
+
+
 import time
 from datetime import datetime
 from config import Settings
